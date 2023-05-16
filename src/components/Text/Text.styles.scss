@@ -1,0 +1,22 @@
+.text {
+
+  /* Размеры */
+  &--size12 {
+    font-size: $xxs;
+  }
+  &--size14 {
+    font-size: $xs;
+  }
+  &--default {
+    font-size: $md;
+  }
+  &--size18 {
+    font-size: $xl;
+  }
+  &--size20 {
+    font-size: $xxl;
+  }
+  &--size22 {
+    font-size: $xxxl;
+  }
+}

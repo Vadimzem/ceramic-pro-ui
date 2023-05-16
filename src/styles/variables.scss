@@ -1,0 +1,31 @@
+@import "fonts/fonts";
+
+// Sizes Text
+$xxxs: 0.675em; // 10px
+$xxs: 0.75em;   // 12px
+$xs: 0.875em;   // 14px
+$md: 1em;       // 16px
+$xl: 1.125em;   // 18px
+$xxl: 1.25em;   // 20px
+$xxxl: 1.375em; // 22px
+
+// Sizes Heading
+$hxxs: 1.5em;     // 24px
+$hxs: 2em;        // 30px
+$hxl: 2.25em;     // 36px
+$hxxl: 2.5em;     // 40px
+
+// Colors
+$base: white;
+$black: black;
+$pink: #ec1d91;
+$grey: #e0e0e0;
+
+// Font
+
+$montserratRegular: 'Montserrat-Regular';
+
+$baseFont: $montserratRegular, serif;
+
+
+$radius: 4px;

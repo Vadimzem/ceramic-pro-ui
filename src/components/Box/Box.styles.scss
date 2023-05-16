@@ -1,0 +1,16 @@
+.box {
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 2.8px 2.8px 5px 0 $black;
+}
+
+.radius {
+  &--top {
+    border-top-left-radius: $radius;
+    border-top-right-radius: $radius;
+  }
+  &--bottom {
+    border-bottom-left-radius: $radius;
+    border-bottom-right-radius: $radius;
+  }
+}

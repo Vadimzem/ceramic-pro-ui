@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-size: 16px;
+  margin: 0;
+  font-family: 'Roboto', serif;
+}
+
+.App {
+  text-align: center;
+  padding: 64px;
+}
+
+@import "components/index.scss";
+
+.product_line {
+  width: 50%;
+  border: solid 1px black;
+  border-radius:8px;
+  margin: 16px auto;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_line_title {
+  font-size:18px;
+  font-weight: bold;
+}
+
+.product_line_actions {
+  display: flex;
+  align-items: center;
+}
+
+.product_line_value {
+  width: 140px;
+  text-align: right;
+  padding: 0 16px;
+}

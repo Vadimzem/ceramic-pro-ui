@@ -1,0 +1,16 @@
+.select {
+  position: relative;
+  &--option {
+    &--wrapper {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      border: 1px solid $grey;
+    }
+    &--item {
+      padding: 4px;
+      width: 100%;
+    }
+  }
+}
+
